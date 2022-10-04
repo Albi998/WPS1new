@@ -1,0 +1,186 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital@0;1&display=swap');
+
+body {
+    color: #393d41;
+    font-size: 1.2rem;
+}
+
+/* HEADER */
+
+header {
+    background-color: black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+/* NAV */
+
+nav {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 100px;
+    text-align: center;
+    background-image: url(../images/banner.jpg);
+}
+
+nav h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    color: #25a2c3;
+    line-height: 1.1em;
+}
+
+nav p {
+    color: #393d41;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.4em;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+nav a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #E65539;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 60px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+/* MAIN */
+
+article {
+    text-align: center;
+}
+
+article h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    font-size: 2em;
+}
+
+article p {
+    color: #393d41;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    line-height: 1.4em;
+    padding: 50px;
+}
+
+article img {
+    border-radius: 100%;
+    margin-bottom: 60px;
+}
+
+article div {
+    background-color: #e22d0e;
+    color: white;
+}
+
+#red p {
+    color: white;
+    font-style: italic;
+}
+
+#red h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 2em;
+    padding: 20px;
+}
+
+#red h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    padding: 20px;
+    padding-bottom: 70px;
+}
+
+article h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    padding-top: 100px;
+}
+
+/* ASIDE */
+
+aside div {
+    margin: 60px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 0px 0px 10px 10px;
+}
+
+aside img {
+    width: 100%;
+}
+
+aside h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    font-size: 2em;
+    padding: 40px;
+}
+
+aside p {
+    color: #393d41;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    line-height: 1.4em;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+}
+/* FOOTER */
+
+footer {
+    background-color: #25a2c3;
+    padding: 60px;
+    text-align: center;
+    color: white;
+    line-height: 2em;
+}
+
+footer h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    padding: 60px;
+}
+
+footer a:link {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    line-height: 2em;
+}
+
+footer hr {
+    color: 2px solid white;
+    margin: 40px;
+}
+
+p a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
